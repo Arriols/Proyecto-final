@@ -52,6 +52,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+  --bs-header-color: var(--bs-purple)
 }
 
 *,
@@ -2477,8 +2478,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+ 
+          accent-color: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -11293,3 +11294,20 @@ section {
 .tLista{
   font-size: 1.4rem;
 }
+
+.cColor{
+  background-color: blueviolet;
+}
+
+.tSub{
+  font-size: 2rem;
+  color: #d3d6d8;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: dashed;
+}
+
+.bCambio{
+  font-size: 1.2em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: blueviolet;
+  }
